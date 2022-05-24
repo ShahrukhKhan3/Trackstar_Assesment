@@ -1,0 +1,23 @@
+.search{
+    margin-top: 50;
+}
+.card{
+    margin-top: 10px;
+}
+.card_header{
+    display: flex;
+    justify-content:space-between;
+}
+.card_buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.card_text{
+    text-align: center;
+}
+.d-flex{
+width: 80%;
+}
+.form-control{
+    border-radius: 1.025rem;
+}

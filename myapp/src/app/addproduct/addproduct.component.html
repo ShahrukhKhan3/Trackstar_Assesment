@@ -1,0 +1,20 @@
+<div class="container" style="width: 18rem;">
+  <form [formGroup]="profileForm" (ngSubmit)="getFormData()">
+<div>
+  <label for="first-name">Name: </label>
+    <input id="first-name"  type="text" formControlName="name">
+</div> 
+  <div>
+    <label for="Description">Description: </label>
+    <input id="Description" type="text" formControlName="description">
+  </div>
+<div>
+  <label for="last-name">Price: </label>
+  <input id="price" type="number" formControlName="price">
+</div>
+    <div class="btn">
+      <button type="button" class="btn btn-success button-style"  (click)="getFormData()">Save</button>
+    </div>
+  </form>
+ 
+</div>

@@ -1,0 +1,17 @@
+.container{
+    margin-top: 30px;
+
+}
+.btn{
+    margin-top: 2;
+}
+form{
+    background-color: grey;
+    padding: 15%;
+    line-height: 2;
+    border-radius: 5%;
+    color: white;
+}
+.button-style{
+    border-radius: 10%;
+}
